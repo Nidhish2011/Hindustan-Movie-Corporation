@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Creative productions - Cinematic Excellence</title>
+    <meta name="description" content="A collective of filmmakers and visionaries crafting high-impact stories in a digital age.">
+    <meta property="og:title" content="Creative productions">
+    <meta property="og:description" content="Crafting high-impact stories for the digital age.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1514467953516-770ca988523c?auto=format&fit=crop&w=1200">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <div id="loader">
+        <h1><span class="saffron">CREATIVE</span></h1>
+        <h1 id="secondLine">PRODUCTIONS</h1>
+        <p style="letter-spacing: 3px; font-size: 0.9rem; color: var(--text-dim);">INITIALIZING EXPERIENCE...</p>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo"><span class="saffron">CREATIVE</span><span> PRODUCTIONS</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#bts">BTS</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="https://videos.pexels.com/video-files/8089117/8089117-uhd_2732_1440_25fps.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <h1 class="hidden"><span class="saffron">Creative</span><br><span>productions.</span></h1>
+        <p class="hidden" style="color: var(--text-main); max-width: 600px; margin-top: 2rem; font-size: 1.2rem; text-shadow: 0 2px 10px #000;">
+            A collective of filmmakers and visionaries crafting high-impact stories in a digital age.
+        </p>
+    </header>
+
+    
+
+    <section id="about" class="container hidden">
+        <h2>About Us</h2>
+        <p style="max-width: 800px; margin: 0 auto 2rem; color: var(--text-dim); font-size: 20px; line-height: 1.8;">
+            Born from a collective of dreamers with cameras and analog hearts, Creative productions thrives on bold storytelling and a relentless appetite for craft. Our team melds cinematic grit with high-voltage emotion, building immersive worlds that pulse with sound, texture and raw imagination. Each project is a collaboration between visionary directors, composers, editors and design artisans, ensuring every scene lands with impact and meaning.
+        </p>
+        
+    </section>
+
+    <section id="music" class="container hidden">
+        <h2>Music Tracks</h2>
+        <div class="track-list">
+            <div class="track">
+                <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+                <div class="track-info">
+                    <div class="equalizer"><span></span><span></span><span></span></div>
+                    <div class="track-meta">
+                        <div class="track-title">Neon Midnight</div>
+                        <div class="track-subtitle">Original Score - Sci-Fi</div>
+                    </div>
+                </div>
+                <button class="listen-btn" aria-label="Play Neon Midnight">LISTEN</button>
+            </div>
+            <div class="track">
+                <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"></audio>
+                <div class="track-info">
+                    <div class="equalizer"><span></span><span></span><span></span></div>
+                    <div class="track-meta">
+                        <div class="track-title">Cactus Rust</div>
+                        <div class="track-subtitle">Original Score - Western</div>
+                    </div>
+                </div>
+                <button class="listen-btn" aria-label="Play Cactus Rust">LISTEN</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="container hidden">
+        <h2>Latest News</h2>
+        <div class="news-grid">
+            <article class="news-card">
+                <div class="news-date">MARCH 20, 2026</div>
+                <h3>New Project in Development</h3>
+                <p>Our latest cinematic venture is underway. Pre-production has begun with an exciting new story that promises to captivate audiences worldwide.</p>
+                <a href="#news" class="read-more" aria-label="Read more about the new project">Read Full Story &rarr;</a>
+            </article>
+            <article class="news-card">
+                <div class="news-date">FEBRUARY 14, 2026</div>
+                <h3>Original Score Collaboration</h3>
+                <p>We are thrilled to announce a new collaboration with talented composers for our upcoming projects. Expect innovative soundscapes that enhance every visual.</p>
+                <a href="#news" class="read-more" aria-label="Read more about the collaboration">Read Full Story &rarr;</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="bts" class="container hidden">
+        <h2>Team Crew</h2>
+        <div class="gallery-grid">
+            <div class="team-card" aria-label="Director">
+                <h3>Director</h3>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600" loading="lazy" alt="Director on set">
+            </div>
+            <div class="team-card" aria-label="Music Director">
+                <h3>Music Director</h3>
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600" loading="lazy" alt="Music director in studio">
+            </div>
+            <div class="team-card" aria-label="Editor">
+                <h3>Editor</h3>
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600" loading="lazy" alt="Editor working on footage">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container hidden">
+        <div class="newsletter-box">
+            <h3>Join Us!</h3>
+            <p style="color: var(--text-dim); margin-bottom: 1.5rem;">Get exclusive behind-the-scenes access and premiere invites.</p>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" placeholder="Enter your comms link (email)" required>
+                <button type="submit" class="submit-btn" style="padding: 1rem;">Subscribe</button>
+            </form>
+        </div>
+
+        <h2>Start a Project</h2>
+        <div class="contact-box">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="text" name="name" placeholder="Designation (Your Name)" required>
+                <input type="email" name="email" placeholder="Comms Link (Your Email)" required>
+                <textarea rows="6" name="message" placeholder="Transmit your vision here..." required></textarea>
+                <button type="submit" class="submit-btn">Send Transmission</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="lightbox" aria-hidden="true" role="dialog">
+        <button class="close-lightbox" aria-label="Close image gallery">&times;</button>
+        <img id="lightbox-img" src="" alt="Full Screen image">
+    </div>
+
+    <div id="trailer-modal" aria-hidden="true" role="dialog">
+        <button class="close-modal" aria-label="Close trailer">&times;</button>
+        <div class="video-container">
+            <iframe id="trailer-frame" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <span class="saffron">Hindustani</span> Productions. Built for the Big Screen.</p>
+        <p style="margin-top: 10px; font-size: 0.8rem;"><a href="admin.html" style="color: var(--text-dim); text-decoration: none;">Director Access</a></p>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script src="main.js" defer></script>
+</body>
+</html>
